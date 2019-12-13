@@ -95,7 +95,7 @@ const register_staker =  function(identity_address, signing_address, coinbase_ad
         const tx = build_transaction(
             nonce,
             signing_address,
-            '0xa0733306c2ee0c60224b0e59efeae8eee558c0ca1b39e7e5a14a575124549416',
+            '0xa056337bb14e818f3f53e13ab0d93b6539aa570cba91ce65c716058241989be9',
             BN_GAS_PRICE.toFixed(),
             BN_GAS_USAGE_DELEGATE.toFixed(),
             data,
